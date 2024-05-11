@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet"
+</head>
+<body>
+    <h1>Holaa bienvenido a Cancun </h1><br>
+<br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    
+   <p> 
+     La isla de Cancun se encuentra ubicada en Quintana Roo, México, y rodeada por las claras aguas del Caribe, este cautivador territorio tiene todo listo para brindarte unas excelentes vacaciones!
+     Este es uno de los desarrollos turísticos más modernos e importantes del país. Lo caracterizan sus hermosas playas, cuya arena tiene la particularidad de ser fina y blanca por su origen de coral. Su mar de aguas transparentes posee una variedad de azules impresionante, que van del esmeralda al turquesa..</p>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://blog.vivaaerobus.com/wp-content/uploads/2019/12/Mejores-Playas-de-Canc%C3%BAn.jpg" style="width:100%">
+  <div class="text">Cancun Mex </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://alanxelmundo.com/wp-content/uploads/2020/05/shutterstock_365114921-574x383-1.jpg" style="width:100%">
+  <div class="text">  Cancun </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://www.cataloniahotels.com/es/blog/wp-content/uploads/2021/05/playas-cancun.jpg" style="width:100%">
+  <div class="text">Cancun Mexico </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+    <script src="script.js"></script>
+
+
+</body>
+</html> 
